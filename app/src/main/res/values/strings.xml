@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TabunganKu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Menu</string>
+    <string name="title_notifications">Histori</string>
+    <string name="tambah">Tambah Tabungan</string>
+    <string name="tarik">Tarik Saldo</string>
+    <string name="nominal_tarik">Nominal Tarik</string>
+    <string name="tarik_tabungan">Tarik Saldo</string>
+    <string name="nominal">Nominal</string>
+    <string name="saldoanda">Saldo anda saat ini</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="konfirmasi_hapus_1">Hapus histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+</resources>
