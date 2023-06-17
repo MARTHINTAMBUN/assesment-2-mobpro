@@ -13,4 +13,7 @@
     <string name="konfirmasi_hapus_1">Hapus histori?</string>
     <string name="hapus">Hapus</string>
     <string name="batal">Batal</string>
+    <string name="tentang_aplikasi">Tentang Apikasi</string>
+    <string name="copyright">Load</string>
+    <string name="koneksi_error">Koneksi Error</string>
 </resources>

@@ -53,6 +53,7 @@ class MenuFragment : Fragment() {
         }
         viewModel.data.observe(viewLifecycleOwner, {
             myAdapter.submitList(it)
+            View.GONE
         })
         binding.tambah.setOnClickListener {
             tambah()
@@ -60,6 +61,7 @@ class MenuFragment : Fragment() {
         binding.tarik.setOnClickListener {
             tarik()
         }
+        binding.saldo.text = viewModel.data.value?.get(0)?.saldo.toString()
     }
 
     override fun onDestroyView() {
@@ -71,7 +73,7 @@ class MenuFragment : Fragment() {
     fun tambah()
     {
         val dataTambah = binding.tambahEditText.text.toString()
-        val saldoData = binding.tambahEditText2.text.toString()
+        val saldoData = binding.saldo.text.toString()
         viewModel.tambah(
             dataTambah.toFloat(),
             saldoData.toFloat()
@@ -81,7 +83,7 @@ class MenuFragment : Fragment() {
     fun tarik()
     {
         val dataTambah = binding.tambahEditText.text.toString()
-        val saldoData = binding.tambahEditText2.text.toString()
+        val saldoData = binding.saldo.text.toString()
         viewModel.tarik(
             dataTambah.toFloat(),
             saldoData.toFloat()

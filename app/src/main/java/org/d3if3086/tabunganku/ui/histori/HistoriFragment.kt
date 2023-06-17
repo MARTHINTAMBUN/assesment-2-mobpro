@@ -1,5 +1,6 @@
 package org.d3if3051.mobpro1.ui.histori
 
+import android.app.Application
 import android.os.Bundle
 import android.view.*
 import androidx.core.content.ContextCompat
@@ -108,4 +109,5 @@ class HistoriFragment : Fragment() {
             }
             .show()
     }
+
 }

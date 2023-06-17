@@ -46,7 +46,8 @@ class HomeAdapter :
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: TabunganEntity){
-            binding.saldo.text = "Saldo anda: " + item.saldo.toString()
+            binding.text.text = "Saldo Anda"
+            binding.saldo.text = "Rp. " + item.saldo.toString()
         }
 
 

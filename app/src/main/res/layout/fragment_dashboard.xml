@@ -28,14 +28,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.921" />
 
-    <EditText
-        android:id="@+id/tambahEditText2"
+    <TextView
+        android:id="@+id/saldo"
         android:layout_width="247dp"
-        android:layout_height="wrap_content"
+        android:layout_height="47dp"
         android:layout_gravity="center"
         android:layout_marginBottom="150dp"
-        android:ems="10"
-        android:inputType="number"
+        android:text="Saldo"
+        android:gravity="center"
+        android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/tambah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
